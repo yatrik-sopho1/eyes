@@ -1,0 +1,60 @@
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #3d9eed;
+}
+
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  background-color: 0;
+  margin: 0px;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  background-color: 0;
+  margin: 0px;
+  width: 50%
+}
+
+
+.flex-container-row > div {
+  background-color: #3d9eed;
+  margin: 0px;
+  padding: 0px;
+  font-size: 50px;
+  font-family: 'Futura Classic W01 Bold' ;
+  color: white;
+
+
+}
+
+@font-face {
+  font-family: 'Futura Classic W01 Bold';
+  src: url("Futura Classic W01 Bold.ttf");
+
+
+}
+
+.content{
+height:90%;
+padding: 60px;
+
+
+}
+
+
+.name{
+height: auto;
+padding-left: 60px;
+padding-bottom: 20px;
+justify-content: flex-start;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+}
